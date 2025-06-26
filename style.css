@@ -4,6 +4,19 @@ body{
     box-sizing: border-box;
 }
 
+
+.mainpage {
+    text-align: center;
+    width: 400px;
+    margin: 20px auto;
+}
+
+.mainpage a{
+    color: #42bff5;
+    text-decoration: none;
+    font-size: 29px;
+}
+
 .card1{
     /* border: 1px solid red; */
     width: 300px;
