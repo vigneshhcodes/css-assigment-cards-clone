@@ -1,0 +1,307 @@
+body{
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-sizing: border-box;
+}
+
+.card1{
+    /* border: 1px solid red; */
+    width: 300px;
+    height:505px;
+    margin: 50px auto;
+    border-radius: 14px;
+    background-color: #ebf1f2;
+    padding: 30px;
+}
+
+.card1 img{
+    width: 100%;
+    border-radius: 14px;
+}
+
+.card1 h2{
+    margin-top: 0;
+    font-size: 34px;
+    margin-bottom: 0;
+    font-weight: 600;
+}
+
+.card1 p{
+    margin-top: 10px;
+    color: #828282;
+}
+
+.input-card1{
+    width: 100%;
+    border: 1px solid #42bff5;
+    outline: none;
+    padding: 10px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color: #ebf1f2;
+    text-align: center;
+    font-size: 20px;
+}
+
+.btn{
+    margin-top: 10px;
+    width: 100%;
+    color: white;
+    background-color: #42bff5;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-weight: 550;
+}
+
+.card1 b{
+    color: black;
+}
+
+.center{
+    text-align: center;
+}
+
+.card2{
+    width: 300px;
+    padding: 30px;
+    border: 1px solid lightgray;
+    border-radius: 16px;
+    margin: 20px auto;
+
+}
+
+.card2 h2{
+    font-size: 34px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.card2 p{
+    margin-top: 0;
+    color: #828282;
+    margin-bottom: 40px;
+}
+
+.card-2-img{
+    height: 70px;
+}
+
+.suitcase{
+    height: 30px;
+    vertical-align: middle;
+}
+
+.card2 .arrow{
+    margin-left: 180px;
+    height: 30px;
+    vertical-align: middle;
+}
+
+.home{
+    height: 30px;
+    vertical-align: middle;
+}
+
+.option1 , .option2{
+    width: 100%;                /*for spaceing btw both of the up and down */
+    margin-top: 10px;
+}
+
+.opt-left , .opt-right {
+    display: inline;
+    vertical-align: middle;
+}
+
+.opt-left span{
+    vertical-align: middle;
+}
+
+.opt-right span{
+    vertical-align: middle;
+}
+
+.opt-right{
+    margin-right: 0px;
+}
+
+.card2 .option2 .opt-left span{
+    margin-right: 193px;
+}
+
+/* card3 css */
+
+.card3{
+    width: 350px;
+    padding: 30px;
+    border: 1px solid lightgray;
+    border-radius: 16px;
+    margin: 20px auto;
+}
+
+.giftbox{
+    height: 40px;
+    vertical-align: middle;
+}
+
+.phone{
+    height: 50px;
+}
+
+.card3 .option1 .arrow{
+    height: 30px;
+    vertical-align: middle;
+    margin-left: 120px;
+}
+
+.card3 .option2 .arrow{
+    height: 30px;
+    vertical-align: middle;
+    margin-right: 3px;
+} 
+
+.card3 .option2 span{
+    margin-right: 135px;
+}
+
+.card3 h2{
+    font-size: 34px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.card3 .footer p{
+    margin-top: 30px;
+    color: #828282a8;
+    font-size: 13px;
+}
+
+.card3 p{
+    margin-top: 20px;   
+    color: #828282;
+}
+
+/* card4 css */
+
+.card4{
+    width: 350px;
+    padding: 30px;
+    border: 1px solid lightgray;
+    border-radius: 16px;
+    margin: 20px auto;
+}
+
+.card4 img{
+    width: 20%;
+}
+
+.input-box input{
+    display: inline-block;
+    font-size: 15px;
+    outline: none;
+}
+
+.card4 .input-box {
+    border: 2px solid #42bff5;
+    width: 350px;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 6px;
+    
+}
+
+
+.icon {
+    border: none;
+    width: 5%;
+}
+
+.card-number {
+    border: none;
+    width: 40%;
+}
+
+.expiry {
+    border: none;
+    width: 20%;
+}
+
+.cvc {
+    border: none;
+    width: 10%;
+}
+
+.card4 .foot{
+    display: inline;
+    vertical-align: middle;
+    font-size: 12px;
+}
+
+.foot img{
+    height: 30px;
+    width: 30px;
+    vertical-align: middle;
+}
+
+.btn-1{
+    margin-top: 10px;
+    width: 100%;
+    color: white;
+    background-color: #42bff5;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-weight: 550;
+    margin-bottom: 15px;
+}
+
+.card5{
+    width: 370px;
+    padding: 30px;
+    border: 1px solid lightgray;
+    border-radius: 16px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.card5 h2{
+    font-size: 29px;
+}
+
+.card5 p{
+    color: #6a6a6a;
+}
+
+.card5 img{
+    width: 20%;
+}
+
+.card5 input{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    border-radius: 7px;
+    border: 1px solid lightgray;
+    margin-top: 8px;
+    margin-bottom: 4px;
+    font-size: 17px;
+
+}
+
+.card5 select{
+    width: 100%;
+    padding: 10px;
+    border-radius: 7px;
+    border: 1px solid lightgray;
+    margin-top: 8px;
+    margin-bottom: 4px;
+    font-size: 17px;
+}
+
+.cont{
+    text-align: left;
+    font-size: 13px;
+    color: #828282;
+}
